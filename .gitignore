@@ -1,0 +1,15 @@
+observatory.local.json
+__pycache__/
+.env
+.ssh/
+ssh_config
+*known_hosts*
+*.pem
+*.key
+*.fits
+*.fit
+*.xisf
+*.esq
+*.esl
+*.sqlite*
+*.zip

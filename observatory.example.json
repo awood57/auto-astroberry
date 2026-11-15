@@ -1,0 +1,48 @@
+{
+  "profile": "Profile",
+  "optical_train": "Primary",
+  "telescope": {
+    "model": "Celestron NexStar 127SLT",
+    "aperture_mm": 127,
+    "focal_length_mm": 1500,
+    "optical_design": "Maksutov-Cassegrain"
+  },
+  "mount": {
+    "driver_device": "Celestron NexStar HC",
+    "expected_geometry": "Alt-azimuth with the stock mount; verify after hand-controller alignment.",
+    "park_position_verified": false
+  },
+  "camera": {
+    "model": "SVBONY SC715C",
+    "saved_working_device_name": "ToupTek G3M715C",
+    "sensor_pixels": [
+      3840,
+      2160
+    ],
+    "pixel_pitch_um": 1.45,
+    "saved_format": "RAW 16",
+    "encoding": "FITS",
+    "saved_gain": 99,
+    "verify_live_gain": true
+  },
+  "approximate_field_of_view_arcmin_without_reducer": [
+    12.8,
+    7.2
+  ],
+  "capture_directory": "~/Pictures/Astrophotography",
+  "plan_directory": "~/Documents/Astrophotography",
+  "mode": "Unguided, manual focus, supervised first observing run",
+  "guiding_commissioned": false,
+  "autofocus_commissioned": false,
+  "live_commissioning_complete": false,
+  "planning_altitude_range_degrees": [
+    30,
+    75
+  ],
+  "altitude_limits_note": "Conservative initial limits, not proof of physical clearance. Confirm cable and tube clearance in the first connected session.",
+  "before_first_run": [
+    "Confirm site, time, alignment, tracking mode, physical clearance and available storage.",
+    "Inspect a short test frame for sharp stars, trailing and framing."
+  ],
+  "capture_quality_gate": "Inspect a saved test frame before starting a longer sequence."
+}
